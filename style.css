@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lime;
+}
+#quote-box {
+  border-radius: 3px;
+  width: 40%;
+  height: 55%;
+  position: relative;
+  background-color: ivory;
+}
+#text {
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1.2em;
+  color: black;
+}
+#author {
+  text-align: right;
+  margin-right: 7%;
+  font-size: 1em;
+}
+#author:before {
+  content: "- ";
+}
+#new-quote {
+  position: absolute;
+  right: 7%;
+  bottom: 15%;
+  background-color: inherit;
+}
+#new-quote:hover {
+  opacity: 0.8;
+}
+#tweet-quote {
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+  background-color: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
